@@ -13,7 +13,7 @@ let toggleMobileNav = () => {
     <div class="container mx-auto px-5 sticky top-0 w-full z-50 bg-white">
         <header class="flex justify-between py-4 items-center">
             <div>
-                <a href="/"><img src="/images/logo.png" alt="HOK Bekasi" class="w-16"></a>
+                <button @click="$scrollTo('#home')"><img src="/images/logo.png" alt="HOK Bekasi" class="w-16"></button>
             </div>
             
             <!-- Menu Toggler -->
@@ -25,18 +25,22 @@ let toggleMobileNav = () => {
             
             <!-- Desktop Menu -->
             <ul class="hidden md:flex space-x-10  font-medium items-center">
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#home">Tentang Kami</a></li>
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#events">Event</a></li>
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#faq">FAQ</a></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#home')">Tentang Kami</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#events')">Event</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#documentations')">Dokumentasi</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#sponsors')">Sponsor</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#contact')">Kontak</button></li>
             </ul>
         </header>
         
         <!-- Mobile Menu -->
         <div v-if="mobileNav" class="md:hidden absolute top-20 left-0 w-full bg-white py-4 z-50">
             <ul class="flex flex-col space-y-4 text-center">
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#home" @click="toggleMobileNav">Tentang Kami</a></li>
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#events" @click="toggleMobileNav">Event</a></li>
-                <li class="uppercase hover:text-blue-500 transition duration-200"><a href="#faq" @click="toggleMobileNav">FAQ</a></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#home')">Tentang Kami</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#events')">Event</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#documentations')">Dokumentasi</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#sponsors')">Sponsor</button></li>
+                <li class="uppercase hover:text-blue-500 transition duration-200"><button @click="$scrollTo('#contact')">Kontak</button></li>
             </ul>
         </div>
     </div>

@@ -15,8 +15,8 @@
                     <br><br>
                     HOK BEKASI adalah Organisasi Komunitas resmi dari Tencent dan sudah tergabung di HOK ACE.</p>
                 <div class="flex justify-center lg:justify-start mt-10">
-                    <Button link="#contact">Kontak Kami</Button>
-                    <Button link="#events" :class="'bg-gray-600 text-white border-gray-600 hover:bg-white hover:text-gray-600'">Event</Button>
+                    <Button @click="$scrollTo('#contact')">Kontak Kami</Button>
+                    <Button @click="$scrollTo('#events')" :class="'bg-gray-600 text-white border-gray-600 hover:bg-white hover:text-gray-600'">Event</Button>
                 </div>
             </div>
             <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10 flex justify-center">
