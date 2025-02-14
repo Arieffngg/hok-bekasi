@@ -23,6 +23,6 @@ AOS.init({
 app.use(VueScrollTo, {
     duration: 800, // Durasi animasi scrolling (ms)
     easing: "ease-in-out", // Efek animasi
-    offset: -150, // Jarak dari elemen tujuan
+    offset: -125, // Jarak dari elemen tujuan
     cancelable: true, // Bisa dibatalkan dengan scroll manual
 });

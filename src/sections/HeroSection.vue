@@ -22,11 +22,11 @@
                     Komunitas resmi dari Tencent dan sudah tergabung di HOK ACE.
                 </p>
                 <div class="flex justify-center lg:justify-start mt-10">
-                    <button
+                    <button @click="$scrollTo('#contact')"
                         class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 dark:bg-yellow-600 dark:hover:bg-yellow-700">
                         Kontak Kami
                     </button>
-                    <button
+                    <button @click="$scrollTo('#events')"
                         class="px-5 py-2 ml-4 border border-gray-600 text-gray-600 bg-white font-semibold rounded-md shadow-md hover:bg-gray-600 hover:text-white dark:bg-gray-800 dark:text-gray-300 dark:border-gray-500 dark:hover:bg-gray-600 dark:hover:text-white">
                         Event
                     </button>
