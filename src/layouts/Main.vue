@@ -7,13 +7,17 @@ import DocumentationSection from "../sections/DocumentationSection.vue";
 </script>
 
 <template>
-    <HeroSection />
+    <div class="container mx-auto">
 
-    <EventSection />
+        <HeroSection />
 
-    <DocumentationSection />
+        <EventSection />
 
-    <SponsorSection />
+        <DocumentationSection />
 
-    <ContactSection />
+        <SponsorSection />
+
+        <ContactSection />
+        
+    </div>
 </template>
