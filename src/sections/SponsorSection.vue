@@ -1,7 +1,7 @@
 <template>
     <div  data-aos="fade-up"
     data-aos-anchor-placement="top-center">
-        <h1 class="text-4xl xl:text-5xl font-bold text-center mt-8 mb-4" id="sponsors">Sponsor</h1>
+        <h1 class="text-4xl xl:text-5xl font-bold text-center mt-8 mb-4 dark:text-white" id="sponsors">Sponsor</h1>
         <div>
             <swiper :slidesPerView="1" :spaceBetween="10" :centeredSlides="true" :breakpoints="{
                 '640': {
@@ -19,7 +19,7 @@
         }" :navigation="false" :pagination="false" :loop="true" :modules="modules" class="mySwiper">
                 <swiper-slide v-for="(sponsor, index) in sponsors" :key="index">
                     <div class="flex justify-center">
-                        <img :src="sponsor.imageUrl" :alt="sponsor.title" class="w-1/2 h-auto rounded-lg" />
+                        <img :src="sponsor.imageUrl" :alt="sponsor.title" class="w-1/2 h-auto rounded-lg bg-white p-2" />
                     </div>
                 </swiper-slide>
             </swiper>

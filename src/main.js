@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import './assets/main.css'
 import App from "./App.vue";
-import Button from "./components/Button.vue";
+import DarkModeToggle from "./components/DarkModeToggle.vue";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,7 +10,7 @@ import VueScrollTo from 'vue-scrollto';
 
 const app = createApp(App);
 
-app.component("Button", Button);
+app.component("DarkModeToggle", DarkModeToggle);
 
 // Inisialisasi AOS setelah aplikasi di-mount
 app.mount("#app");

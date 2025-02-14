@@ -7,7 +7,7 @@ import DocumentationSection from "../sections/DocumentationSection.vue";
 </script>
 
 <template>
-    <div class="container mx-auto">
+    <div class="container mx-auto dark:bg-gray-900">
 
         <HeroSection />
 

@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center items-center px-16 w-full md:w-1/2 mx-auto" id="documentations" data-aos="zoom-in">
         <div class="w-full">
-            <h1 class="text-4xl xl:text-5xl font-bold text-center my-8">DOKUMENTASI</h1>
+            <h1 class="text-4xl xl:text-5xl font-bold text-center my-8 dark:text-white">DOKUMENTASI</h1>
             <swiper :style="{
                 '--swiper-navigation-color': '#fff',
                 '--swiper-pagination-color': '#fff',

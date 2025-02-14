@@ -1,7 +1,7 @@
 <template>
     <!-- Events Section Start -->
     <div data-aos="fade-up">
-        <h1 class="text-4xl xl:text-5xl font-bold text-center mt-8">EVENT</h1>
+        <h1 class="text-4xl xl:text-5xl font-bold text-center mt-8 dark:text-white">EVENT</h1>
         <div id="events" class="container mx-auto py-10">
             <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'"
                 :coverflowEffect="{
