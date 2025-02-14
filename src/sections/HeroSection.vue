@@ -23,7 +23,7 @@
                 </p>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <button
-                        class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 dark:bg-blue-400 dark:hover:bg-blue-300">
+                        class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 dark:bg-yellow-600 dark:hover:bg-yellow-700">
                         Kontak Kami
                     </button>
                     <button

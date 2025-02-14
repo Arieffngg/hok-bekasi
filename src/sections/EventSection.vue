@@ -52,11 +52,11 @@
                         <div class="flex justify-end py-1.5">
                             <div v-if="item.status === 'Berjalan'">
                                 <a :href="item.link" target="_blank">
-                                    <Button>Daftar</Button>
+                                    <button class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 dark:bg-yellow-600 dark:hover:bg-yellow-700">Daftar</button>
                                 </a>
                             </div>
                             <div v-else>
-                                <button class="bg-gray-600 text-white border-gray-600 py-2 px-4 rounded" disabled>Daftar</button>
+                                <button class="bg-gray-600 text-white border-gray-600 py-2 px-4 rounded" disabled readonly>Daftar</button>
                             </div>
                         </div>
                         </p>

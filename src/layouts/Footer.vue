@@ -3,7 +3,7 @@
 
 <template>
     <!-- Foooter -->
-    <section class="bg-blue-400">
+    <section class="bg-blue-500 dark:bg-yellow-600">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
             <div class="flex justify-center mt-4 space-x-6">
                 <a href="https://www.instagram.com/hok.bekasi" class="text-white hover:text-black">

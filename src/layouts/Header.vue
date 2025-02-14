@@ -26,7 +26,7 @@ onMounted(() => {
 
 <template>
     <!-- Navbar Start -->
-    <div class="px-5 sticky top-0 w-full z-50 bg-blue-500 dark:bg-blue-400">
+    <div class="px-5 sticky top-0 w-full z-50 bg-blue-500 dark:bg-yellow-600">
         <header class="flex justify-between items-center container mx-auto">
             <div>
                 <button @click="$scrollTo('#home')">
