@@ -1,16 +1,29 @@
 <script setup>
-import { ref, watchEffect } from "vue";
+import { ref, watchEffect, onMounted } from "vue";
 
-const isDarkMode = ref(localStorage.getItem("theme") === "dark");
+const isDarkMode = ref(false);
 
 watchEffect(() => {
-  if (isDarkMode.value) {
-    document.documentElement.classList.add("dark");
-    localStorage.setItem("theme", "dark");
-  } else {
-    document.documentElement.classList.remove("dark");
-    localStorage.setItem("theme", "light");
-  }
+    if (isDarkMode.value) {
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+    } else {
+        document.documentElement.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+    }
+});
+
+// Set dark mode sesuai preferensi pengguna
+onMounted(() => {
+    isDarkMode.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (isDarkMode.value) {
+        document.documentElement.classList.add("dark");
+        localStorage.setItem("theme", "dark");
+    } else {
+        document.documentElement.classList.remove("dark");
+        localStorage.setItem("theme", "light");
+    }
 });
 </script>
 

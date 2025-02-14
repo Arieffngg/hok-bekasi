@@ -7,21 +7,6 @@ let toggleMobileNav = () => {
     mobileNav.value = !mobileNav.value;
 };
 
-// State untuk dark mode
-let isDarkMode = ref(false);
-
-// Fungsi toggle dark mode
-const toggleDarkMode = () => {
-    isDarkMode.value = !isDarkMode.value;
-    document.documentElement.classList.toggle('dark', isDarkMode.value);
-    localStorage.setItem('darkMode', isDarkMode.value);
-};
-
-// Set dark mode sesuai preferensi pengguna
-onMounted(() => {
-    isDarkMode.value = localStorage.getItem('darkMode') === 'true';
-    if (isDarkMode.value) document.documentElement.classList.add('dark');
-});
 </script>
 
 <template>
@@ -76,7 +61,7 @@ onMounted(() => {
         <!-- Mobile Menu -->
         <transition name="slide-fade">
             <div v-if="mobileNav"
-                class="md:hidden absolute top-16 left-0 w-full bg-blue-500 dark:bg-gray-900 py-4 z-50">
+                class="md:hidden absolute top-16 left-0 w-full bg-blue-500 dark:bg-yellow-600 py-4 z-50">
                 <ul class="flex flex-col space-y-4 text-center">
                     <li class="uppercase hover:text-black text-white transition duration-200">
                         <button @click="$scrollTo('#home'); toggleMobileNav()">Tentang Kami</button>

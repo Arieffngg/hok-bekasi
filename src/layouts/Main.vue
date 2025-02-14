@@ -8,16 +8,10 @@ import DocumentationSection from "../sections/DocumentationSection.vue";
 
 <template>
     <div class="container mx-auto dark:bg-gray-900">
-
         <HeroSection />
-
         <EventSection />
-
         <DocumentationSection />
-
         <SponsorSection />
-
         <ContactSection />
-        
     </div>
 </template>
