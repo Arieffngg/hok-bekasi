@@ -2,7 +2,8 @@
 
 <template>
     <!-- Hero Section Start -->
-    <div class="container mx-auto px-8 md:px-24 overflow-x-hidden lg:overflow-x-visible mt-20 mb-8" id="contact" data-aos="fade-down">
+    <div>
+        <div class="container mx-auto px-8 md:px-24 overflow-x-hidden lg:overflow-x-visible mt-20 mb-8" id="contact">
         <h1 class="text-4xl xl:text-5xl font-bold  text-center dark:text-white">Kontak Kami</h1>
         <section class="grid grid-cols-none lg:grid-cols-2 pb-4 pt-8 items-center">
             <div class="flex justify-center hidden lg:block">
@@ -27,6 +28,7 @@
                 </div>
             </div>
         </section>
+    </div>
     </div>
     <!-- Hero Section End -->
 </template>
