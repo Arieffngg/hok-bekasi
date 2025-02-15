@@ -19,7 +19,7 @@ const events = [
         date: '25 Februari 2025',
         quota: 16,
         registration: 'Free',
-        venue: 'Yayasan Al-Maa'Uun Bina Insan',
+        venue: 'Yayasan Al-MaaUun Bina Insan',
         status: 'Selesai',
         color: 'bg-red-500'
     },
