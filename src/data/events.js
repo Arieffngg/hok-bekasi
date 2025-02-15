@@ -12,7 +12,7 @@ const events = [
         color: 'bg-blue-500'
     },
     {
-        title: "KCT 2024",
+        title: "KCT 2025",
         description: "Organize your bookmarks however you like. ", 
         imageUrl: "https://indogamers.com/_next/image?url=https%3A%2F%2Fassets.indogamers.com%2Fmedia%2Fimages%2F2024%2F04%2F23%2Fsfdafe-907000359632.webp&w=1200&q=75",
         link: "#",
