@@ -37,6 +37,7 @@
                                 <td>Slot</td>
                                 <td>&nbsp;:&nbsp;</td>
                                 <td>{{ item.quota }} Tim</td>
+                                <td>{{ item.quota2 }} Peserta</td>
                             </tr>
                             <tr>
                                 <td>Pendaftaran</td>
