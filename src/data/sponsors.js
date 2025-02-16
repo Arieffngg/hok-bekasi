@@ -24,17 +24,21 @@ const sponsors = [
         imageUrl: "https://imgur.com/vhQ4Zn8.png",
     },
     {
-        title: "Telkomsel",
-        imageUrl: "https://imgur.com/OVwSK2U.png",
+        title: "Realme",
+        imageUrl: "https://imgur.com/sN6bOIp.png",
     },
     {
-        title: "Telkomsel",
-        imageUrl: "https://imgur.com/OVwSK2U.png",
+        title: "Dunia Games",
+        imageUrl: "https://imgur.com/du5PZtb.png",
     },
     {
-        title: "Telkomsel",
-        imageUrl: "https://imgur.com/OVwSK2U.png",
-    },    
+        title: "Garika",
+        imageUrl: "https://imgur.com/mYZkMlt.png",
+    },
+    {
+        title: "Letalks",
+        imageUrl: "https://imgur.com/oF4SIMy.png",
+    },     
 ];
 
 export default sponsors
