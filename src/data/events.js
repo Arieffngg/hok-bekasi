@@ -5,7 +5,7 @@ const events = [
         imageUrl: "https://imgur.com/Pg8hqsE.jpeg",
         link: "https://bit.ly/hokbekasichampionship-online2025",
         date: '23 Februari 2025',
-        quota: 16,
+        quota: 32,
         registration: 'Free',
         venue: 'Online',
         status: 'Berjalan',
@@ -19,7 +19,7 @@ const events = [
         date: '25 Februari 2025',
         quota: 0,
         registration: 'Free',
-        venue: 'Yayasan Al-MaaUun Bina Insan',
+        venue: 'Al-MaaUun Bina Insan',
         status: 'Selesai',
         color: 'bg-red-500'
     },
@@ -36,14 +36,14 @@ const events = [
         color: 'bg-red-500'
     },
     {
-        title: "DG LAGA 2024 ( KUALIFIKASI BEKASI )",
+        title: "Dunia Games LAGA 2024 (KUALIFIKASI BEKASI)",
         description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.", 
         imageUrl: "https://imgur.com/aVCefSc.jpeg",
         link: "https://www.instagram.com/p/DBsYm_xzPCf/",
         date: '3 November 2024',
         quota: 16,
         registration: 'Free',
-        venue: 'Komposisi Cafe & MMM RESTAURANT',
+        venue: 'Komposisi Cafe',
         status: 'Selesai',
         color: 'bg-red-500'
     },
@@ -60,19 +60,19 @@ const events = [
         color: 'bg-red-500'
     },
     {
-        title: "Gathering",
+        title: "Gathering Hok Bekasi",
         description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.", 
         imageUrl: "https://imgur.com/PpDfh0e.jpeg",
         link: "https://www.instagram.com/p/C_mdAsLzd6A/",
         date: '15 September 2024',
         quota: 8,
         registration: 'Free',
-        venue: 'Online',
+        venue: 'Alun-Alun Kota Bekasi',
         status: 'Selesai',
         color: 'bg-red-500'
     },
     {
-        title: "King City Tournament 2024",
+        title: "King City Tournament 2024 (KUALIFIKASI BEKASI)",
         description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.", 
         imageUrl: "https://imgur.com/lMnvLpe.jpeg",
         link: "https://www.instagram.com/p/C9zVFlPTCxq/",

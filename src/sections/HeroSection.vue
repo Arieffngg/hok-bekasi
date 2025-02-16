@@ -16,10 +16,10 @@
                     <br /><br />
                     <span class="dark:text-yellow-400">Honor Of Kings</span> adalah
                     permainan mobile bergenre MOBA (Multiplayer Online Battle Arena) yang
-                    sangat populer, dikembangkan oleh Tencent Games.
+                    sangat populer, dikembangkan oleh <u><a href="https://www.tencentgames.com/introduce.html">Tencent Games</a></u>.
                     <br /><br />
                     <span class="dark:text-blue-400">HOK BEKASI</span> adalah Organisasi
-                    Komunitas resmi dari Tencent dan sudah tergabung di HOK ACE.
+                    Komunitas resmi dari Tencent dan sudah tergabung di <u><a href="https://hokacecommunity.id/community/list">HOK ACE</a></u>.
                 </p>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <button @click="$scrollTo('#contact')"

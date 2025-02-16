@@ -5,11 +5,6 @@ const socialmedia = [
         icon: "ri-instagram-line"
     },
     {
-        name: "Twitter",
-        link: "https://twitter.com/hokbekasi",
-        icon: "ri-twitter-line"
-    },
-    {
         name: "Youtube",
         link: "https://www.youtube.com/@hokbekasi",
         icon: "ri-youtube-line"
